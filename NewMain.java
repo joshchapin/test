@@ -1,5 +1,4 @@
-/Devan was here <---- NO ADMIN FOR YOU
-//This is another branch
+
 import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -15,8 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 public static Integer money;
-//bleeeeeeeeeeeeeeeeeeeeeeh
-    //Blorg
+    
     public void loanMe(View view)
     {
        Toast myToast =  Toast.makeText(this, "You got 1 million dollars", Toast.LENGTH_SHORT);
