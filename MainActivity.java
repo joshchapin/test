@@ -1,7 +1,7 @@
 package com.example.myapplication;
 
 //Devan was here
-
+//This is another branch
 import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
