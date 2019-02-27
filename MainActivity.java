@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 public static Integer money;
 //bleeeeeeeeeeeeeeeeeeeeeeh
+    //Blorg
     public void loanMe(View view)
     {
        Toast myToast =  Toast.makeText(this, "You got 1 million dollars", Toast.LENGTH_SHORT);
