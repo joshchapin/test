@@ -1,6 +1,6 @@
 package com.example.myapplication;
 
-//Devan was here
+//Devan was here <---- NO ADMIN FOR YOU
 //This is another branch
 import android.app.ActionBar;
 import android.content.Intent;
