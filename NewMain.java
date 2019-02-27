@@ -33,7 +33,6 @@ public static Integer money;
     }
     public void goToUpgrade(View view)
     {
-        //create the object to allow the second activity to start
         Intent IntentUpgrade = new Intent(this,SecondActivity.class);
         startActivity(IntentUpgrade);
     }
