@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/store_background"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
+        app:srcCompat="@drawable/long_button_blue" />
+
+    <TextView
+        android:id="@+id/Time_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StoreTime"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/Reskin_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Second_Button"
+        app:layout_constraintVertical_bias="0.105"
+        app:srcCompat="@drawable/long_button_blue" />
+
+    <TextView
+        android:id="@+id/Time_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Special"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/Reskin_Label"
+        app:layout_constraintEnd_toEndOf="@+id/Reskin_Label"
+        app:layout_constraintStart_toStartOf="@+id/Reskin_Label"
+        app:layout_constraintTop_toTopOf="@+id/Reskin_Label" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/close_activity"
+        android:contentDescription="@string/TownHall_descriptor"
+        android:onClick="backButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <ImageButton
+        android:id="@+id/First_Button"
+        android:onClick="Buy_Pressed"
+        android:layout_width="84dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/buttonsquare_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Special_button"
+        android:layout_width="84dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/buttonsquare_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Special_button2"
+        android:layout_width="84dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:background="@drawable/buttonsquare_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Special_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Second_Button"
+        android:onClick="Buy_Pressed"
+        android:layout_width="84dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/buttonsquare_grey"
+        app:layout_constraintStart_toEndOf="@+id/First_Button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Third_Button"
+        android:onClick="Buy_Pressed"
+        android:layout_width="84dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/buttonsquare_grey"
+        app:layout_constraintStart_toEndOf="@+id/Second_Button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Time_Buyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Store_First_Button"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/First_Button"
+        app:layout_constraintEnd_toEndOf="@+id/First_Button"
+        app:layout_constraintStart_toStartOf="@+id/First_Button"
+        app:layout_constraintTop_toTopOf="@+id/First_Button"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <TextView
+        android:id="@+id/Time_Buyer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$3"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/Second_Button"
+        app:layout_constraintEnd_toEndOf="@+id/Second_Button"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/Second_Button"
+        app:layout_constraintTop_toTopOf="@+id/Second_Button"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <TextView
+        android:id="@+id/Time_Buyer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$5"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/Third_Button"
+        app:layout_constraintEnd_toEndOf="@+id/Third_Button"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="@+id/Third_Button"
+        app:layout_constraintTop_toTopOf="@+id/Third_Button"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <TextView
+        android:id="@+id/Time_Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="24 hr"
+        android:textSize="24sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/First_Button"
+        app:layout_constraintEnd_toEndOf="@+id/First_Button"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="@+id/First_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Time_Buyer"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/Time_Amount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="48 hr"
+        android:textSize="24sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/Second_Button"
+        app:layout_constraintEnd_toEndOf="@+id/Second_Button"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/Second_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Time_Buyer2"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <TextView
+        android:id="@+id/Time_Amount3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="72 hr"
+        android:textSize="24sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/Third_Button"
+        app:layout_constraintEnd_toEndOf="@+id/Third_Button"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/Third_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Time_Buyer3"
+        app:layout_constraintVertical_bias="0.111" />
+
+</android.support.constraint.ConstraintLayout>

@@ -17,7 +17,29 @@ public class SecondActivity extends AppCompatActivity {
 
     public void levelUp(View view)
     {
-        Toast myToast =  Toast.makeText(this, "Need Visual for button presses", Toast.LENGTH_SHORT);
+        String upgradeText = "You upgraded ";
+        switch (view.getId())
+        {
+            case(R.id.job):
+                upgradeText = upgradeText.concat("Stable");
+                break;
+            case(R.id.jobLevel2):
+                upgradeText = upgradeText.concat("Carpenter");
+                break;
+            case(R.id.jobLevel3):
+                upgradeText = upgradeText.concat("Mining");
+                break;
+            case(R.id.jobLevel4):
+                upgradeText = upgradeText.concat("GraveDigging");
+                break;
+            case(R.id.jobLevel5):
+                upgradeText =  upgradeText.concat("Necromancy");
+                break;
+
+                default:
+                    upgradeText =   upgradeText.concat("error");
+        }
+        Toast myToast =  Toast.makeText(this, upgradeText,Toast.LENGTH_SHORT);
         myToast.show();
     }
     @Override

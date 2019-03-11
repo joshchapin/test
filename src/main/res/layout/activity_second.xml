@@ -19,12 +19,13 @@
         android:layout_marginBottom="8dp"
         android:text="@string/SecondScreenTitle"
         android:textSize="50sp"
+        app:fontFamily="@font/pixellari"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.101" />
 
     <ImageButton
         android:id="@+id/JobLevel"
@@ -38,12 +39,93 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.201" />
+
+    <ImageButton
+        android:id="@+id/jobLevel2"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toEndOf="@+id/job"
+        app:layout_constraintTop_toBottomOf="@+id/JobLevel"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ImageButton
+        android:id="@+id/jobLevel3"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toEndOf="@+id/job2"
+        app:layout_constraintTop_toBottomOf="@+id/jobLevel2"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <ImageButton
+        android:id="@+id/jobLevel4"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toEndOf="@+id/job3"
+        app:layout_constraintTop_toBottomOf="@+id/jobLevel3"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <ImageButton
+        android:id="@+id/jobLevel5"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toEndOf="@+id/job4"
+        app:layout_constraintTop_toBottomOf="@+id/jobLevel4"
+        app:layout_constraintVertical_bias="0.16" />
 
     <ImageView
         android:id="@+id/Job1"
@@ -133,7 +215,7 @@
         app:srcCompat="@drawable/buttonlong_brown" />
 
     <TextView
-        android:id="@+id/JobTitle1"
+        android:id="@+id/Stable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Job1"
@@ -146,14 +228,55 @@
         app:layout_constraintTop_toTopOf="@+id/Job1" />
 
     <TextView
-        android:id="@+id/jobTitle"
+        android:id="@+id/Carpenter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Job2"
         android:textSize="30sp"
         app:fontFamily="@font/pixellari"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="234dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/job"
+        app:layout_constraintEnd_toEndOf="@+id/job"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="@+id/job"
+        app:layout_constraintTop_toTopOf="@+id/job" />
+
+    <TextView
+        android:id="@+id/Mining"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/Job3"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/job2"
+        app:layout_constraintEnd_toEndOf="@+id/job2"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="@+id/job2"
+        app:layout_constraintTop_toTopOf="@+id/job2" />
+
+    <TextView
+        android:id="@+id/GraveDigging"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/Job4"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/job3"
+        app:layout_constraintEnd_toEndOf="@+id/job3"
+        app:layout_constraintStart_toStartOf="@+id/job3"
+        app:layout_constraintTop_toTopOf="@+id/job3" />
+
+    <TextView
+        android:id="@+id/Necromancy"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/Job5"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/job4"
+        app:layout_constraintEnd_toEndOf="@+id/job4"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/job4"
+        app:layout_constraintTop_toTopOf="@+id/job4" />
 
     <ImageButton
         android:id="@+id/BackButton"
@@ -170,7 +293,9 @@
         android:onClick="backButton"
         app:layout_constraintBottom_toTopOf="@+id/JobLevel"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

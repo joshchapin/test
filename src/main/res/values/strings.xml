@@ -10,5 +10,10 @@
     <string name="Job1">Stable</string>
     <string name="TownHall_descriptor">Goes to Job Screen</string>
     <string name="Job2">Carpenter</string>
+    <string name="Job3">Mining</string>
+    <string name="Job4">GraveDigging</string>
+    <string name="Job5">Necromancy</string>
+    <string name="StoreTime">TimeSavers</string>
+    <string name="Store_First_Button">$2</string>
 
 </resources>
