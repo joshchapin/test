@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.101" />
 
     <ImageButton
-        android:id="@+id/JobLevel"
+        android:id="@+id/jobLevel"
 
         android:layout_width="50dp"
         android:layout_height="49dp"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.264"
         app:layout_constraintStart_toEndOf="@+id/job"
-        app:layout_constraintTop_toBottomOf="@+id/JobLevel"
+        app:layout_constraintTop_toBottomOf="@+id/jobLevel"
         app:layout_constraintVertical_bias="0.058" />
 
     <ImageButton
@@ -138,7 +138,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/JobLevel"
+        app:layout_constraintEnd_toStartOf="@+id/jobLevel"
         app:layout_constraintHorizontal_bias="0.648"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -156,7 +156,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="428dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/JobLevel"
+        app:layout_constraintEnd_toStartOf="@+id/jobLevel"
         app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Job1"
@@ -291,7 +291,7 @@
         android:background="@drawable/close_activity"
         android:contentDescription="@string/TownHall_descriptor"
         android:onClick="backButton"
-        app:layout_constraintBottom_toTopOf="@+id/JobLevel"
+        app:layout_constraintBottom_toTopOf="@+id/jobLevel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView"

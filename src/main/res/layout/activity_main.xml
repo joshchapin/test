@@ -2,10 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    app:fontFamily="@font/pixellari"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gamebackground"
-    app:fontFamily="@font/pixellari"
     tools:context=".MainActivity">
 
     <ImageButton
@@ -38,7 +38,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/home1"
-        android:onClick="goToStore"
+        android:onClick="makePopupWindow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -57,6 +57,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="437dp"
         android:background="@drawable/home2"
+        android:onClick="makePopupWindow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,6 +74,7 @@
         android:layout_marginRight="27dp"
         android:layout_marginBottom="165dp"
         android:background="@drawable/church"
+        android:onClick="makePopupWindow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,10 +91,27 @@
         android:layout_marginRight="68dp"
         android:layout_marginBottom="47dp"
         android:background="@drawable/home3"
+        android:onClick="makePopupWindow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Church" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="98dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/necrohouse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Home1" />
 
     <ImageButton
         android:id="@+id/GoldClick"

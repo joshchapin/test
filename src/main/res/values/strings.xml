@@ -15,5 +15,8 @@
     <string name="Job5">Necromancy</string>
     <string name="StoreTime">TimeSavers</string>
     <string name="Store_First_Button">$2</string>
+    <string name="DummyPopup">This is placeholder text</string>
+    <string name="House_descriptor">Opens a Popup Window</string>
+    <string name="Recap_text">This will show how much you made while offline</string>
 
 </resources>

@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
         String upgradeText = "You upgraded ";
         switch (view.getId())
         {
-            case(R.id.job):
+            case(R.id.jobLevel):
                 upgradeText = upgradeText.concat("Stable");
                 break;
             case(R.id.jobLevel2):
