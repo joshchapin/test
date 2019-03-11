@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="test">PlaceHolder</string>
+    <string name="Button1">Get a small loan</string>
+    <string name="Button2">Spend your money</string>
+    <string name="totalMoney">0</string>
+    <string name="SecondScreenTitle">Jobs</string>
+    <string name="ResourceAmount">M</string>
+    <string name="UpgradeImage">File Bankcruptcy</string>
+    <string name="Job1">Stable</string>
+    <string name="TownHall_descriptor">Goes to Job Screen</string>
+    <string name="Job2">Carpenter</string>
+
+</resources>
