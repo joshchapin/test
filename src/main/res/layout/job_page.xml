@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/job_background"
+    tools:context=".JobPage">
+
+    <ImageView
+        android:id="@+id/barBuyAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonlong_brown" />
+
+    <TextView
+        android:id="@+id/txtJobPageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/JobPageTitle"
+        android:textSize="50sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <ImageButton
+        android:id="@+id/btnBuyJob1"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <ImageButton
+        android:id="@+id/btnBuyJob2"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toEndOf="@+id/barJob2"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuyJob1"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ImageButton
+        android:id="@+id/btnBuyJob3"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toEndOf="@+id/barJob3"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuyJob2"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <ImageButton
+        android:id="@+id/btnBuyJob4"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toEndOf="@+id/barJob4"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuyJob3"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <ImageButton
+        android:id="@+id/btnBuyJob5"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="levelUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toEndOf="@+id/barJob5"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuyJob4"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <ImageButton
+        android:id="@+id/btnBuyAmount"
+
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/buttonround_beige"
+        android:onClick="cycleBuyAmount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toEndOf="@+id/barBuyAmount"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuyJob5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/barJob1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnBuyJob1"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202"
+        app:srcCompat="@drawable/buttonlong_brown" />
+
+    <ImageView
+        android:id="@+id/barJob2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="428dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnBuyJob1"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barJob1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/buttonlong_brown" />
+
+    <ImageView
+        android:id="@+id/barJob3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnBuyJob1"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barJob2"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/buttonlong_brown" />
+
+    <ImageView
+        android:id="@+id/barJob4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:layout_marginBottom="256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barJob3"
+        app:layout_constraintVertical_bias="0.076"
+        app:srcCompat="@drawable/buttonlong_brown" />
+
+    <ImageView
+        android:id="@+id/barJob5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barJob4"
+        app:srcCompat="@drawable/buttonlong_brown" />
+
+    <TextView
+        android:id="@+id/txtJob1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Job1"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/barJob1"
+        app:layout_constraintEnd_toEndOf="@+id/barJob1"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="@+id/barJob1"
+        app:layout_constraintTop_toTopOf="@+id/barJob1" />
+
+    <TextView
+        android:id="@+id/txtJob2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Job2"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/barJob2"
+        app:layout_constraintEnd_toEndOf="@+id/barJob2"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="@+id/barJob2"
+        app:layout_constraintTop_toTopOf="@+id/barJob2" />
+
+    <TextView
+        android:id="@+id/txtJob3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/Job3"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/barJob3"
+        app:layout_constraintEnd_toEndOf="@+id/barJob3"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="@+id/barJob3"
+        app:layout_constraintTop_toTopOf="@+id/barJob3" />
+
+    <TextView
+        android:id="@+id/txtJob4"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/Job4"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/barJob4"
+        app:layout_constraintEnd_toEndOf="@+id/barJob4"
+        app:layout_constraintStart_toStartOf="@+id/barJob4"
+        app:layout_constraintTop_toTopOf="@+id/barJob4" />
+
+    <TextView
+        android:id="@+id/txtJob5"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/Job5"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintBottom_toBottomOf="@+id/barJob5"
+        app:layout_constraintEnd_toEndOf="@+id/barJob5"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/barJob5"
+        app:layout_constraintTop_toTopOf="@+id/barJob5" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/close_activity"
+        android:contentDescription="@string/TownHall_descriptor"
+        android:onClick="backButton"
+        app:layout_constraintBottom_toTopOf="@+id/btnBuyJob1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtJobPageTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtBuyAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="30sp"
+        app:fontFamily="@font/pixellari"
+        app:layout_constraintEnd_toEndOf="@+id/barBuyAmount"
+        app:layout_constraintStart_toStartOf="@+id/barBuyAmount"
+        app:layout_constraintTop_toTopOf="@+id/barBuyAmount"
+        tools:text="Buy:" />
+
+</android.support.constraint.ConstraintLayout>
